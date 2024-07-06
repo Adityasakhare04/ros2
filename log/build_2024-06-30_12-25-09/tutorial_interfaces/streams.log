@@ -1,0 +1,57 @@
+[0.071s] Invoking command in '/home/aditya/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake /home/aditya/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/aditya/ros2_ws/install/tutorial_interfaces
+[0.699s] -- The C compiler identification is GNU 11.4.0
+[1.060s] -- The CXX compiler identification is GNU 11.4.0
+[1.096s] -- Detecting C compiler ABI info
+[1.403s] -- Detecting C compiler ABI info - done
+[1.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.435s] -- Detecting C compile features
+[1.440s] -- Detecting C compile features - done
+[1.451s] -- Detecting CXX compiler ABI info
+[1.791s] -- Detecting CXX compiler ABI info - done
+[1.843s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.845s] -- Detecting CXX compile features
+[1.849s] -- Detecting CXX compile features - done
+[1.918s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.582s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.125s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.348s] Error parsing '/home/aditya/ros2_ws/src/tutorial_interfaces/package.xml':
+[3.539s] Traceback (most recent call last):
+[3.540s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[3.541s]     root = dom.parseString(data)
+[3.542s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[3.545s]     return expatbuilder.parseString(string)
+[3.545s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[3.546s]     return builder.parseString(string)
+[3.546s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[3.547s]     parser.Parse(string, True)
+[3.547s] xml.parsers.expat.ExpatError: junk after document element: line 19, column 3
+[3.548s] 
+[3.548s] During handling of the above exception, another exception occurred:
+[3.548s] 
+[3.548s] Traceback (most recent call last):
+[3.548s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.549s]     main()
+[3.549s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.549s]     raise e
+[3.549s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.549s]     package = parse_package_string(
+[3.549s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[3.550s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[3.550s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/aditya/ros2_ws/src/tutorial_interfaces/package.xml':
+[3.550s] The manifest contains invalid XML:
+[3.550s] junk after document element: line 19, column 3
+[3.588s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.589s]   execute_process(/usr/bin/python3
+[3.589s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.589s]   /home/aditya/ros2_ws/src/tutorial_interfaces/package.xml
+[3.589s]   /home/aditya/ros2_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[3.589s]   returned error code 1
+[3.589s] Call Stack (most recent call first):
+[3.590s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.590s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[3.590s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[3.590s] 
+[3.590s] [0m
+[3.591s] -- Configuring incomplete, errors occurred!
+[3.591s] See also "/home/aditya/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[3.600s] Invoked command in '/home/aditya/ros2_ws/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/aditya/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/aditya/ros2_ws/install/tutorial_interfaces

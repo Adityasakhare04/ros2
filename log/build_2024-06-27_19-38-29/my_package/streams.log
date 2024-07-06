@@ -1,0 +1,38 @@
+[2.248s] Invoking command in '/home/aditya/ros2_ws/src/my_package': PYTHONPATH=/home/aditya/ros2_ws/build/my_package/prefix_override:/home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/aditya/ros2_ws/build/my_package/build install --record /home/aditya/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[3.008s] running egg_info
+[3.009s] creating ../../build/my_package/my_package.egg-info
+[3.010s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[3.011s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[3.012s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[3.012s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[3.013s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[3.014s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.018s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.019s] adding license file 'LICENSE'
+[3.022s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.024s] running build
+[3.024s] running build_py
+[3.025s] creating /home/aditya/ros2_ws/build/my_package/build
+[3.025s] creating /home/aditya/ros2_ws/build/my_package/build/lib
+[3.025s] creating /home/aditya/ros2_ws/build/my_package/build/lib/my_package
+[3.026s] copying my_package/my_node.py -> /home/aditya/ros2_ws/build/my_package/build/lib/my_package
+[3.063s] copying my_package/__init__.py -> /home/aditya/ros2_ws/build/my_package/build/lib/my_package
+[3.065s] running install
+[3.068s] running install_lib
+[3.072s] creating /home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[3.072s] copying /home/aditya/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[3.073s] copying /home/aditya/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[3.075s] byte-compiling /home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[3.076s] byte-compiling /home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[3.077s] running install_data
+[3.077s] creating /home/aditya/ros2_ws/install/my_package/share/ament_index
+[3.078s] creating /home/aditya/ros2_ws/install/my_package/share/ament_index/resource_index
+[3.078s] creating /home/aditya/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[3.079s] copying resource/my_package -> /home/aditya/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[3.079s] copying package.xml -> /home/aditya/ros2_ws/install/my_package/share/my_package
+[3.080s] running install_egg_info
+[3.085s] Copying ../../build/my_package/my_package.egg-info to /home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[3.088s] running install_scripts
+[3.155s] Installing my_node script to /home/aditya/ros2_ws/install/my_package/lib/my_package
+[3.156s] writing list of installed files to '/home/aditya/ros2_ws/build/my_package/install.log'
+[3.213s] Invoked command in '/home/aditya/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/aditya/ros2_ws/build/my_package/prefix_override:/home/aditya/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/aditya/ros2_ws/build/my_package/build install --record /home/aditya/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
